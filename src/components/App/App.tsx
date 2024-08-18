@@ -20,7 +20,7 @@ function App() {
       <header className="flex flex-shrink-0 items-center justify-center p-4 border-b-2 border-slate-100">
         <h1 className="mx-4 font-bold">FizzBuzz</h1>
       </header>
-      <main className="flex-grow overflow-scroll">
+      <main className="flex-grow overflow-scroll bg-neutral-50">
         {entries.map((item) => {
           return <FizzBuzzCard key={item.id} num={item.num} />;
         })}
