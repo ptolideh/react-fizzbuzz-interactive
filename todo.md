@@ -1,0 +1,5 @@
+- [] layout
+- [] capture input
+- [] manage app state
+- [] basic ui
+- [] adapt ui to state variation
